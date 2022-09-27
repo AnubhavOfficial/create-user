@@ -1,0 +1,55 @@
+.App {
+  height: "auto";
+  /* color: white; */
+  text-align: center;
+}
+.heading {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bolder;
+  font-style: italic;
+  display: inline;
+  font-size: 40px;
+}
+.user {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 52%;
+  left: 50%;
+  background-color: rgba(0,0,0, 0.4);
+  font-weight: bold;
+  border: 2px solid #040303;
+  border-right: none;
+  width: 99%;
+  height: "auto";
+}
+
+.new-user {
+  font-weight: bold;
+  width: 35%;
+  float: left;
+}
+.user-list {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  font-weight: bold;
+  width: 60%;
+  float: right;
+  margin-top: 20px;
+}
+.form-item {
+  position: "relative";
+  font-family: "Cutive Mono, monospace";
+  font-size: "15px";
+  font-weight:"bold";
+  border-radius: "8px";
+  border: "1px solid";
+}
+.nolisted {
+  font-family:"Cutive Mono, monospace";
+  font-weight: bolder;
+  font-style: italic;
+  font-size: 50px;
+  color: thistle;
+  margin-top: 30%;
+}
